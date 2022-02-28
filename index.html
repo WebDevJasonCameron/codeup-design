@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="css/design.css">
     <title>Design Project</title>
 </head>
-<body>
-<div class="container bg-light">
+<body class="bg-light">
+<div class="container">
     <header class="text-center">
         <div class="bg-color-white">
 
@@ -59,30 +59,37 @@
 
         </section>
 
+
+<!--SECTION-->
         <section>
-            <p class="display-5 text-uppercase mt-5 mb-5">Selected Work</p>
-            <ul class="card">
+            <h3 class="display-5 text-uppercase mt-5 mb-5">Selected Work</h3>
+
+            <!--Card 01-->
+            <div class="card border-0" style="display: flex; justify-content: center">
                 <div class="card-body">
-                    <img src="images/apple-ipad.jpg">
+                    <img src="images/apple-ipad.jpg" class="img-fluid" style="border: 17px solid rgba(108,108,108,0.33)">
                 </div>
+                <div class=" " style="display: flex; justify-content: space-between">
                     <div>
-                        <p class="display-3 ml-3 ">Featured Project</p>
+                        <p class="display-3 ">Featured Project</p>
                     </div>
 
-            <ul class="list inline column">
-                <li class=" list-inline-item container-fluid display-flex border-5 border-white bg-danger text-dark text-uppercase font-weight-bold rounded-circle" style="height: 50px; width: 50px; display: flex; justify-content: center; align-items: center">
-                    <p class="font-weight-bold h1" >D</p>
-                </li>
-                <li class=" list-inline-item container-fluid border-5 border-white bg-warning text-dark text-uppercase font-weight-bold rounded-circle" style="height: 50px; width: 50px; display: flex; justify-content: center; align-items: center">
-                    <p class="font-weight-bold h1" >D</p>
-                </li>
-                <li class=" list-inline-item container-fluid border-5 border-white bg-success text-dark text-uppercase font-weight-bold rounded-circle" style="height: 50px; width: 50px; display: flex; justify-content: center; align-items: center">
-                    <p class="font-weight-bold h1" >S</p>
-                </li>
-                <li class=" list-inline-item container-fluid col-sm-3 border-white bg-primary text-dark text-uppercase font-weight-bold rounded-circle" style="height: 50px; width: 50px; display: flex; justify-content: center; align-items: center">
-                    <p class="font-weight-bold h1" >H</p>
-                </li>
-            </ul>
+                    <ul class="list-unstyled" style="display: flex; gap: 10px">
+                        <li class="bg-danger text-dark text-uppercase font-weight-bold rounded-circle" style="height: 50px; width: 50px; display: flex; justify-content: center; align-items: center">
+                            <p class="font-weight-bold h1" >D</p>
+                        </li>
+                        <li class="bg-warning text-dark text-uppercase font-weight-bold rounded-circle" style="height: 50px; width: 50px; display: flex; justify-content: center; align-items: center">
+                            <p class="font-weight-bold h1" >D</p>
+                        </li>
+                        <li class="bg-success text-dark text-uppercase font-weight-bold rounded-circle" style="height: 50px; width: 50px; display: flex; justify-content: center; align-items: center">
+                            <p class="font-weight-bold h1" >S</p>
+                        </li>
+                        <li class="bg-primary text-dark text-uppercase font-weight-bold rounded-circle" style="height: 50px; width: 50px; display: flex; justify-content: center; align-items: center">
+                            <p class="font-weight-bold h1" >H</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
     </header>
