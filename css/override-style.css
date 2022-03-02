@@ -6,6 +6,7 @@
     --blue: #00ABA9;
     --white: #f0f0f0;
     --gray: #E6E6E6;
+    --black: #000000;
 }
 
 body {
@@ -83,3 +84,18 @@ a {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+.small-circle {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+
+    text-decoration: none;
+    color: var(--black);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+}
+
