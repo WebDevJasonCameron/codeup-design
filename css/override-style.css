@@ -6,6 +6,7 @@
     --blue: #00ABA9;
     --white: #f0f0f0;
     --gray: #E6E6E6;
+    --dark-gray: rgb(111, 113, 114);
     --black: #000000;
 }
 
@@ -99,3 +100,29 @@ a {
     margin: 4px;
 }
 
+/*IMAGES*/
+.apples-img {
+    background-image: url("../img/apple-ipad.jpg");
+    height: 440px;
+    width: 600px;
+    border: 10px solid var(--dark-gray);
+
+}
+.man-img {
+    background-image: url("../img/man.jpg");
+    height: 440px;
+    width: 600px;
+    border: 10px solid var(--dark-gray);
+}
+.mac-img {
+    background-image: url("../img/macbook.jpg");
+    height: 440px;
+    width: 600px;
+    border: 10px solid var(--dark-gray);
+}
+.security-img {
+    background-image: url("../img/security.jpg");
+    height: 440px;
+    width: 600px;
+    border: 10px solid var(--dark-gray);
+}

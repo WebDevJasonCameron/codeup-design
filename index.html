@@ -16,34 +16,77 @@
     <link rel="stylesheet" href="css/override-style.css">
     <title>CodeUp Design</title>
 </head>
-<body class="wrapper">
+<body>
     <div class="nav-background bg-light"></div>
 
     <!--HEADER SECTION-->
-    <header>
-        <nav class="nav">
-            <ul class="nav-bar">
-                <li>
-                    <a href="#" class="nav-brand">
-                        <img src="img/logo.png" alt="CodeUp Logo" width="105px">
-                        COMPANY NAME
-                    </a>
-                </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Work</a>
-                </li>
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
+<!--    <header>-->
+<!--        <nav class="navbar navbar-light">-->
+<!--            <div class="container justify-content-center text-center">-->
+<!--                <ul class="w-100 navbar-nav">-->
+<!--                    <li class="order-md-3 order-lg-0 mr-lg-auto">-->
+<!--                        <a href="#" class="navbar-brand d-block w-100 mb-2 m-md-0 text-center">-->
+<!--                            <img src="img/logo.png" alt="CodeUp Logo" width="105px">-->
+<!--                            <span class="brand-name d-block d-lg-inline text-center w-100">COMPANY NAME</span>-->
+<!--                        </a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item d-flex-inline order-md-1 order-lg-1 mt-md-5">-->
+<!--                        <a class="nav-link" href="#">Services</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item d-flex-inline order-md-2 order-lg-1 mt-md-5">-->
+<!--                        <a class="nav-link" href="#">Work</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item d-flex-inline order-md-4 order-lg-1 mt-md-5">-->
+<!--                        <a class="nav-link" href="#">Blog</a>-->
+<!--                    </li>-->
+<!--                    <li class="nav-item d-flex-inline order-md-3 order-lg-1 mt-md-5">-->
+<!--                        <a class="nav-link" href="#">Contact</a>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </nav>-->
+<!--    </header>-->
+
+    <!--    TRASH NOT TRASH !!!!!!!!!!!!!!!-->
+
+    <div class="wrapper">
+        <nav class="navbar navbar-light">
+            <div class="container-fluid">
+                <ul class="nav w-100 justify-content-center">
+                    <li class="order-md-3 order-lg-0 mr-lg-auto">
+                        <a href="#" class="navbar-brand d-block w-100 mb-2 m-md-0 text-center">
+                            <img class="" width="105px" src="img/logo.png" alt="Codeup Design logo">
+                            <div class="brand-name d-block d-lg-inline text-center w-100">codeup design</div>
+                        </a>
+                    </li>
+                    <div class="w-100 d-md-none"></div><!-- used to force line break in flex items for mobile -->
+                    <li class="nav-item order-md-1 order-lg-1 mt-md-5">
+                        <a class="nav-link text-uppercase px-2 px-md-3" href="">Services</a>
+                    </li>
+                    <li class="nav-item order-md-2 order-lg-2 mt-md-5">
+                        <a class="nav-link text-uppercase px-2 pl-md-3 pr-md-0 px-lg-3" href="">Work</a>
+                    </li>
+                    <li class="nav-item order-md-4 order-lg-3 mt-md-5">
+                        <a class="nav-link text-uppercase px-2 pl-md-0 pr-md-3 px-lg-3" href="">Blog</a>
+                    </li>
+                    <li class="nav-item order-md-5 order-lg-4 mt-md-5">
+                        <a class="nav-link text-uppercase px-2 px-md-3" href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-    </header>
+
+
+
+
+
+
+
+
+
+
+    <!--    TRASH NOT TRASH !!!!!!!!!!!!!!!-->
+
 
     <!--ABOUT SECTION-->
     <section class="text-center mb-5" id="about">
@@ -89,17 +132,19 @@
         </section>
     </section>
 
+    <!--MAIN & ASIDE-->
     <section class="text-center mt-5">
 
         <p class="text-uppercase">Select Work</p>
 
         <div class="row container-fluid">
-            <div class="col-12 col-md-12" style="background-color: pink">                               <!--SELECTED WORK COL-->
+            <div class="col-12 col-md-12">                               <!--SELECTED WORK COL-->
                 <main class="row" id="selected-work">
                     <div class="col-12 col-md-6">
 
                             <div class="text-center mb-3">                   <!--Card 01-->
-                                <img src="img/apple-ipad.jpg" alt="Picture of apples an iPad" class="card-img-top border border-3">
+                                <div class="apples-img">
+                                </div>
                                 <div class="d-flex justify-content-between align-items-center m-1">
                                     <div>
                                         <p class="text-uppercase my-0 p-">Featured Project</p>
@@ -114,7 +159,8 @@
                             </div>
 
                             <div class="text-center">                   <!--Card 02-->
-                                <img src="img/macbook.jpg" alt="Macbook and monitor" class="card-img-top border border-3">
+                                <div class="man-img">
+                                </div>
                                 <div class="d-flex justify-content-between align-items-center m-1">
                                     <div>
                                         <p class="text-uppercase my-0 p-">Featured Project</p>
@@ -132,7 +178,8 @@
                     <div class="col-12 col-md-6">
 
                         <div class="text-center mb-3">                   <!--Card 03-->
-                            <img src="img/man.jpg" alt="man's face with zeros and ones floating around him" class="card-img-top border border-3">
+                            <div class="mac-img">
+                            </div>
                             <div class="d-flex justify-content-between align-items-center m-1">
                                 <div>
                                     <p class="text-uppercase my-0 p-">Featured Project</p>
@@ -148,7 +195,8 @@
 
 
                         <div class="text-center mb-3">                   <!--Card 04-->
-                            <img src="img/security.jpg" alt="the word security" class="card-img-top border border-3">
+                            <div class="security-img">
+                            </div>
                             <div class="d-flex justify-content-between align-items-center m-1">
                                 <div>
                                     <p class="text-uppercase my-0 p-">Featured Project</p>
